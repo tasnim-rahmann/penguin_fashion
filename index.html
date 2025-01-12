@@ -6,23 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas {
+            font-family: "Bebas Neue", serif;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="bg-amber-100 px-4 md:px-36 py-20">
         <!-- nav section -->
         <nav>
 
         </nav>
         <!-- banner section -->
-        <div class="flex bg-amber-100 justify-between px-36">
-            <div>
-                <h1 class="text-7xl uppercase "><span class="text-[#FABE4C]">Be the Penguins</span> <br> of Winter</h1>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-3">
+                <h1 class="text-7xl uppercase font-bebas"><span class="text-[#FABE4C]">Be the Penguins</span> <br> of Winter</h1>
                 <p>
                     Lorem Ipsum is simply dummy text of the <br>
                     printing and typesetting industry.
                 </p>
-                <button class="w-44 h-16 bg-blue-800 rounded-xl text-white uppercase font-medium">
+                <button
+                    class="w-44 h-16 bg-blue-800 rounded-xl text-white uppercase font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6 inline">
                         <path stroke-linecap="round" stroke-linejoin="round"
